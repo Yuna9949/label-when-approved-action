@@ -3,7 +3,7 @@ name: Label approved pull requests
 jobs:
   labelWhenApproved:
     name: Label when approved
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest windows
     steps:
     - name: Label when approved
       uses: pullreminders/label-when-approved-action@master
